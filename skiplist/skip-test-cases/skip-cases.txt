@@ -1,0 +1,217 @@
+# Query 0
+@DIR/skip/fewEvents.txt @DIR/skip/query0.txt
+> FINDRANGE 1780 1809
+1782 First U. S. President born in "The United States" is Van Buren, Dec 5
+1782 Mozart: "Die Entfuhrung aus dem Serail" ("The Abduction from the Seraglio"), opera, Vienna
+1787 Northwest Ordinance adopted July 13 by Continental Congress
+1799 Karl Gauss proves that every polynomial equation has a solution among the complex numbers
+1801 Richard Trevithick builds a prototype steam powered railroad locomotive
+
+> FINDRANGE 1800 1876
+1801 Richard Trevithick builds a prototype steam powered railroad locomotive
+1814 Francis Scott Key observes flag over Fort McHenry at Baltimore, Sept 14
+1819 Florida ceded by Spain to the United States, Feb 22
+1862 Frederick Delius, English composer, born
+1868 Moussorgsky begins work on "Boris Godunov" (completed in 1874)
+1869 Henry J. Wood, English conductor, born
+1871 Dmitri Mendeleyev systematically examines the periodic table and predicts the existence of gallium, scandium, and germanium
+
+> FINDRANGE 1600 1710
+1615 Andriano Banchieri founds Accademia dei Filomusi in Bologna
+1645 Heinrich Schutz: "Die sieben Worte Chriti am Kruez," oratorio
+
+> FINDMOSTRECENT 1800
+1799 Karl Gauss proves that every polynomial equation has a solution among the complex numbers
+
+> FINDMOSTRECENT 1683
+1645 Heinrich Schutz: "Die sieben Worte Chriti am Kruez," oratorio
+
+> DELETE 1645
+
+> FINDMOSTRECENT 1683
+1615 Andriano Banchieri founds Accademia dei Filomusi in Bologna
+
+> DELETE 1779
+
+> FINDRANGE 1700 1799
+1739 Johann Mattheson: "Der vollkommene Kapellmeister," treatise on conducting
+1782 First U. S. President born in "The United States" is Van Buren, Dec 5
+1782 Mozart: "Die Entfuhrung aus dem Serail" ("The Abduction from the Seraglio"), opera, Vienna
+1787 Northwest Ordinance adopted July 13 by Continental Congress
+1799 Karl Gauss proves that every polynomial equation has a solution among the complex numbers
+
+> FINDMOSTRECENT 1930
+1926 Oskar Klein and Walter Gordon state their relativistic quantum wave equation
+
+> DELETE 1926
+
+> FINDMOSTRECENT 1930
+1920 Gustav Holst: "The Planets," first complete performance given in London
+
+//
+
+# Query 1
+@DIR/skip/allEvents.txt @DIR/skip/query1.txt
+> FINDRANGE 1788 1789
+1788 First settlement in Ohio is Marietta, named for Marie Antoinette
+1788 Johann Gottfried Muthel, German composer and organist, dies
+1788 Joseph Lagrange presents Lagrange's equations of motion in  Mecanique Analytique
+1788 K.P.E. Bach dies
+1788 Mozart: The three "great" symphonies: E flat, G minor, Jupiter
+1788 New Hampshire is 9th state to ratify Constitution.  It is now the law
+1789 Antoine Lavoisier states the law of conservation of mass
+1789 Charles Burney "History of Music" finished
+1789 Franz Xaver Richter, German composer, dies
+1789 French Revolution. Bastille falls Jul 14. Declaration of Rights Aug 26th
+1789 Friedrich Silcher, German composer, born
+1789 George Washington & John Adams elected as first President & VP
+1789 Gretry: "Raoul Barbe-Bleue," opera, Paris
+1789 Mackenzie reaches Arctic Ocean via Mackenzie River in W. Canada
+1789 Mutiny on the H.M.S. Bounty; survivors establish Pitcairn Is. colony
+1789 The Judiciary Act specifies numbers of Federal courts and judges
+1789 William Herschel finishes a 49 inch optical reflecting telescope -- located in Slough, England
+
+> FINDRANGE 1745 1747
+1745 "The Campbells are coming," Scottish national song, published
+1745 Charles Dibdin, English composer and singer, born
+1745 Johann Stamitz becomes court Kapellmeister in Mannheim
+1746 College of New Jersey, now called Princeton Univ., founded
+1747 Handel: "Judas Maccabaeus," oratorio, Covent Garden, London
+1747 J.S. Bach: "Das Musikalische Opfer"
+1747 James Lind discovers that citrus fruits prevent scurvy
+1747 New York State Bar Association is first in this continent
+1747 Pierre-Louis Moreau de Maupertuis applies minimum principles to mechanics
+1747 Rousseau: "Les Muses galantes," opera
+
+> DELETE 1746
+
+> FINDRANGE 1745 1747
+1745 "The Campbells are coming," Scottish national song, published
+1745 Charles Dibdin, English composer and singer, born
+1745 Johann Stamitz becomes court Kapellmeister in Mannheim
+1747 Handel: "Judas Maccabaeus," oratorio, Covent Garden, London
+1747 J.S. Bach: "Das Musikalische Opfer"
+1747 James Lind discovers that citrus fruits prevent scurvy
+1747 New York State Bar Association is first in this continent
+1747 Pierre-Louis Moreau de Maupertuis applies minimum principles to mechanics
+1747 Rousseau: "Les Muses galantes," opera
+
+> FINDRANGE 1658 1658
+1658 Birth of Antoine de la Mothe, sieur de Cadillac; he dies in 1730
+1658 Christian Huygens experimentally discovers that balls placed anywhere inside an inverted cycloid reach the lowest point of the cycloid in the same time
+1658 Christopher Wren shows that the length of a cycloid is four times the diameter of its generating circle
+1658 Jan Swammerdam observes red blood cells under a microscope
+1658 Johann Caspar von Kerll "Applausi Festivi," opera, Munich
+
+> DELETE 1658
+
+> FINDRANGE 1658 1658
+No events found.
+
+> FINDRANGE -6000 -4000
+-4000 Copper metallurgy is invented and copper is used for ornamentation
+-4000 Harps and flutes played in Egypt
+
+> FINDRANGE 2002 2015
+2002 Dr. Jeremy Buhler teaches CS241 for the first time
+2004 The Great Course Renumbering (CS -> CSE)
+2015 Dr. Jeremy Buhler face-plants spectacularly on stage in CSE 241
+
+//
+
+# Query 2
+@DIR/skip/allEvents.txt @DIR/skip/query2.txt
+> FINDMOSTRECENT 1543
+1543 Andreas Vesalius publishes De Fabrica Corporis Humani which corrects Greek medical errors and revolutionizes medicine
+1543 Ludwig Senfl, German composer, dies
+1543 Nicholas Copernicus shows that his heliocentric theory simplifies planetary motion tables in De Revolutionibus de Orbium Coelestium
+1543 Wiliam Byrd, English composer, born
+
+> FINDMOSTRECENT -1
+-38 Chinese octave is subdivided into 60 notes
+
+> FINDMOSTRECENT 1800
+1800 Alessandro Volta announces his invention of the electric battery
+1800 Boieldieu: "Le Calife de Bagdad," opera, Paris
+1800 Cherubini: "Les Deux Journees" (The Water Carrier), opera, Paris
+1800 Congress establishes Library of Congress
+1800 Fillmore, 13th President, born; dies 1874
+1800 House elects President Jefferson after electoral college tie with Burr
+1800 Humphry Davy announces the anaesthetic properties of nitrous oxide
+1800 Nicola Piccini, Italian composer, Gluck's rival in Paris, dies
+1800 Spain returns Louisiana to France
+1800 William Herschel discovers infrared radiation from the Sun
+1800 William Nicholson and Anthony Carlisle use electrolysis to separate water into hydrogen and oxygen
+
+> DELETE 1800
+
+> FINDMOSTRECENT 1800
+1799 Barberina Campanini, Italian dancer, dies
+1799 Beethoven: Symphony No. 1 in C major
+1799 French Revolution ends.  Napolean becomes ruler of France
+1799 George Washington dies in Mount Vernon December 14, from quinsy
+1799 Haydn: "The Creation," oratorio, Vienna
+1799 Karl Ditter von Dittersdorf, Austrian composer, dies
+1799 Karl Gauss proves that every polynomial equation has a solution among the complex numbers
+1799 Patrick Henry dies June 6
+
+> DELETE 1799
+
+> FINDMOSTRECENT 1800
+1798 Alien and Sedition Acts.  Soon to be repealed
+1798 Count Rumford has the idea that heat is a form of energy
+1798 Department of the Navy established after 4 years of having a Navy
+1798 Henry Cavendish measures the gravitational constant
+1798 Thomas Malthus discusses human population growth and food production
+1798 Washington comes out of retirement to be Commander In Chief of Army
+1798 XYZ Affair, so named after three anonymous French trouble makers
+
+> FINDMOSTRECENT -9000
+No events found.
+
+> FINDMOSTRECENT -6999
+-7000 Pottery is invented
+
+//
+
+# Query 3
+@DIR/skip/allEvents.txt @DIR/skip/query3.txt
+> FINDRANGE -500 -400
+-500 Greek Choral music reaches its zenith
+-500 Pindar begins to write his odes
+-500 Pythagoras further explores musical theory
+-500 St. Romanos, called Melodos, writes his hymns for Christmas, Easter and the Passion
+-500 Typical Greek instruments aulos, cithara, lyre
+-447 Pindar dies
+-440 Democritus speculates about fundamental indivisible particles -- calls them atoms
+-420 Hippocrates begins the scientific study of medicine by maintaining that diseases have natural causes
+-400 Catapults are invented in Syracuse
+-400 Trumpet playing competitions become popular in Greece
+
+> FINDRANGE 1350 1360
+1350 Cambrai, instead of Paris becomes the center of French music
+1350 Lute playing is now popular throughout Europe
+1350 Mastersinger movement begins in Germany
+1350 The League of Nations established at Onondaga, NY. 1st true democracy
+1355 Jean de Muris, French composer dies
+1360 Beginnings of the development of the clavichord and cembalo
+
+> FINDMOSTRECENT 1563
+1563 William Byrd made organist at Lincoln Cathedral
+
+> FINDMOSTRECENT 1208
+1202 Leonardo Fibonacci demonstrates the utility of Arabic numerals in his Book of the Abacus
+
+> DELETE 1579
+
+> DELETE 1578
+
+> DELETE 1577
+
+> FINDMOSTRECENT 1579
+1576 Balint Bakfark dies
+1576 Martin Frobisher puts his name on Frobisher's Bay, Canada
+1576 Thomas Digges modifies the Copernican system by removing its outer edge and replacing the edge with a star filled unbounded space
+1576 Tomas Luis Victoria: "Liber primus," masses and canticles
+
+//
